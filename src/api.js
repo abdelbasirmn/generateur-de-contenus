@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const API_URL = 'https://api.openai.com/';
-const API_KEY = 'API_KEY';
+const API_URL = 'https://api.openai.com/v1/engines/davinci-codex/completions'h;
+const API_KEY = 'Ask-proj-2Pnc9zTZtRst6ChMswUnT3BlbkFJxhHLinr93EJayoIq1tFO';
 
 export const generateContent = async (prompt, type) => {
   const response = await axios.post(API_URL, {
